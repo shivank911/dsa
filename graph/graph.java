@@ -321,11 +321,12 @@ public class graph{
         addEdge(graph, 0, 6, 3);
 
         boolean[] vis = new boolean[V];
+        display(graph, 7);
     }
 
     public static void main(String[] args) {
         constructGraph();
-
+        
     }
 
 }
