@@ -22,7 +22,9 @@ public class graph {
             System.out.println();
         }
     }
+  
     public static void bfs(ArrayList<Edge>[]graph){
+        PriorityQueue<Integer> que = new PriorityQueue<>();
         
     }
     public static void constructGraph() {
