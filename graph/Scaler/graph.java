@@ -7,7 +7,7 @@ public class graph {
         Edge(int v, int w) {
             this.v = v;
             this.w = w;
-        }
+        } 
     }
     public static void addEdge(ArrayList<Edge>[] graph, int u, int v, int w) {
         graph[u].add(new Edge(v, w));
@@ -21,6 +21,11 @@ public class graph {
             }
             System.out.println();
         }
+    }
+  
+    public static void bfs(ArrayList<Edge>[]graph){
+        PriorityQueue<Integer> que = new PriorityQueue<>();
+        
     }
     public static void constructGraph() {
         int V = 7;
