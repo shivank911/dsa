@@ -95,14 +95,19 @@
 // console.log(module.exports.subArraySum(arr));
 
 
-let B = [[1, 2],[4, 1],[2, 4],[3, 4],[5, 2],[1, 3]]
-let graph = new Map();
-for(let i=1;i<=5;i++)
-graph.set(i,[]);
-B.map((elem)=>{
-    graph.get(elem[0]).push(elem[1]);
-});
-console.log(graph);
-let c = 1;
-let k =2;
-console.log(c+k);
+// let B = [[1, 2],[4, 1],[2, 4],[3, 4],[5, 2],[1, 3]]
+// let graph = new Map();
+// for(let i=1;i<=5;i++)
+// graph.set(i,[]);
+// B.map((elem)=>{
+//     graph.get(elem[0]).push(elem[1]);
+// });
+// console.log(graph);
+// let c = 1;
+// let k =2;
+// console.log(c+k);
+
+let C = [1,2,3,4,5,6];
+console.log(C.filter((elem)=>{
+    return elem<3;
+}));
